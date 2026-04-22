@@ -24,6 +24,7 @@ import {
   resolveBattleTurn,
   starClusters,
   typeMeta,
+  withBasePath,
 } from "@/lib/water-margin";
 
 const WaterMarginScene = dynamic(() => import("@/components/water-margin-scene"), {
@@ -173,7 +174,7 @@ function BattleAvatar({
         </div>
         <div className="grid place-items-center rounded-[22px] border border-white/8 bg-black/15 p-6">
           <img
-            src={hero.artwork}
+            src={withBasePath(hero.artwork)}
             alt={hero.name_zh}
             className={clsx(
               "h-44 w-44 object-contain drop-shadow-[0_18px_22px_rgba(0,0,0,0.45)]",
@@ -452,7 +453,7 @@ export default function WaterMarginCyberArenaApp() {
                       )}
                     >
                       <img
-                        src={hero.sprite}
+                        src={withBasePath(hero.sprite)}
                         alt={hero.name_zh}
                         className="h-12 w-12 rounded-xl bg-white/5 object-contain"
                       />
@@ -476,7 +477,7 @@ export default function WaterMarginCyberArenaApp() {
                       className="flex items-center gap-3 rounded-[18px] border border-white/8 bg-white/[0.03] px-3 py-3 text-left hover:border-[rgba(212,177,106,0.25)]"
                     >
                       <img
-                        src={hero.sprite}
+                        src={withBasePath(hero.sprite)}
                         alt={hero.name_zh}
                         className="h-12 w-12 rounded-xl bg-white/5 object-contain"
                       />
@@ -695,7 +696,7 @@ export default function WaterMarginCyberArenaApp() {
                             </div>
                             <div className="grid min-h-40 place-items-center rounded-[22px] border border-white/8 bg-black/15 p-4">
                               <img
-                                src={hero.artwork}
+                                src={withBasePath(hero.artwork)}
                                 alt={hero.name_zh}
                                 className="h-32 w-32 object-contain drop-shadow-[0_12px_16px_rgba(0,0,0,0.4)]"
                               />
@@ -763,7 +764,7 @@ export default function WaterMarginCyberArenaApp() {
                             <td className="px-4 py-4">
                               <div className="flex items-center gap-3">
                                 <img
-                                  src={hero.sprite}
+                                  src={withBasePath(hero.sprite)}
                                   alt={hero.name_zh}
                                   className="h-10 w-10 rounded-xl bg-white/5 object-contain"
                                 />
@@ -823,7 +824,7 @@ export default function WaterMarginCyberArenaApp() {
                                   )}
                                 >
                                   <img
-                                    src={hero.sprite}
+                                    src={withBasePath(hero.sprite)}
                                     alt={hero.name_zh}
                                     className="h-12 w-12 rounded-xl bg-white/5 object-contain"
                                   />
@@ -867,7 +868,7 @@ export default function WaterMarginCyberArenaApp() {
                           key={hero.id}
                           className="flex items-center gap-3 rounded-[18px] border border-white/8 bg-white/[0.03] px-3 py-3"
                         >
-                          <img src={hero.sprite} alt={hero.name_zh} className="h-12 w-12 rounded-xl bg-white/5 object-contain" />
+                          <img src={withBasePath(hero.sprite)} alt={hero.name_zh} className="h-12 w-12 rounded-xl bg-white/5 object-contain" />
                           <div className="flex-1">
                             <p className="font-medium text-white">{hero.name_zh}</p>
                             <p className="text-xs text-[#bba883]">{hero.type_label} · {hero.designation_zh}</p>
@@ -903,7 +904,7 @@ export default function WaterMarginCyberArenaApp() {
                           key={hero.id}
                           className="flex items-center gap-3 rounded-[18px] border border-white/8 bg-white/[0.03] px-3 py-3"
                         >
-                          <img src={hero.sprite} alt={hero.name_zh} className="h-12 w-12 rounded-xl bg-white/5 object-contain" />
+                          <img src={withBasePath(hero.sprite)} alt={hero.name_zh} className="h-12 w-12 rounded-xl bg-white/5 object-contain" />
                           <div className="flex-1">
                             <p className="font-medium text-white">{hero.name_zh}</p>
                             <p className="text-xs text-[#bba883]">{hero.type_label} · {hero.designation_zh}</p>

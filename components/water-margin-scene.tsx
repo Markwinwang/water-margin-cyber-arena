@@ -11,10 +11,10 @@ import {
   useTexture,
 } from "@react-three/drei";
 import * as THREE from "three";
-import { HeroRecord, typeMeta } from "@/lib/water-margin";
+import { HeroRecord, typeMeta, withBasePath } from "@/lib/water-margin";
 
 function BattleStandard({ hero }: { hero: HeroRecord }) {
-  const texture = useTexture(hero.artwork);
+  const texture = useTexture(withBasePath(hero.artwork));
   const group = useRef<THREE.Group>(null);
   const primary = typeMeta[hero.type_key]?.color ?? "#d4b16a";
   const ring = typeMeta[hero.type_key]?.ring ?? "#f1d18f";

@@ -113,6 +113,15 @@ export const starClusters = dataset.starClusters;
 export const typeMeta = dataset.typeMeta;
 export const typeChart = dataset.typeChart;
 export const heroById = new Map(heroList.map((hero) => [hero.id, hero]));
+export const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
+export function withBasePath(path: string) {
+  if (!path || path.startsWith("http://") || path.startsWith("https://")) {
+    return path;
+  }
+
+  return `${basePath}${path}`;
+}
 
 export function getHero(id: number) {
   return heroById.get(id);
