@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="768" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="64" y1="48" x2="440" y2="464" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#141112"/>
+      <stop offset="0.55" stop-color="#23191b"/>
+      <stop offset="1" stop-color="#0b0b0f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 220) rotate(90) scale(220)">
+      <stop stop-color="#e7caff" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#e7caff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="36" fill="url(#bg)"/>
+  <rect x="18" y="18" width="476" height="476" rx="28" stroke="#a84f3c" stroke-opacity="0.55" stroke-width="2"/>
+  <circle cx="256" cy="224" r="176" fill="url(#glow)"/>
+  <circle cx="256" cy="224" r="148" stroke="#e7caff" stroke-opacity="0.28" stroke-width="2" stroke-dasharray="8 10"/>
+  <circle cx="256" cy="224" r="112" stroke="#e7caff" stroke-opacity="0.2" stroke-width="1.5"/>
+  <path d="M84 114h344" stroke="#a84f3c" stroke-opacity="0.5" stroke-width="2"/>
+  <path d="M84 398h344" stroke="#a84f3c" stroke-opacity="0.3" stroke-width="2"/>
+  <g opacity="0.96"><circle cx="256" cy="208" r="96" fill="#c08dff" /><path d="M188 310c18-72 70-128 136-146" stroke="#e7caff" stroke-width="12" fill="none" stroke-linecap="round" /></g>
+  <text x="48" y="74" fill="#a84f3c" font-family="'Noto Serif SC','STSong',serif" font-size="40" letter-spacing="4">第010席</text>
+  <text x="256" y="402" fill="#f5ede0" font-family="'Noto Serif SC','STSong',serif" font-size="58" text-anchor="middle">柴进</text>
+  <text x="256" y="438" fill="#e7caff" font-family="'Noto Sans SC','PingFang SC',sans-serif" font-size="26" text-anchor="middle">「小旋風」 · 天貴星</text>
+  <text x="256" y="468" fill="#cdbf9f" font-family="'Noto Sans SC','PingFang SC',sans-serif" font-size="26" text-anchor="middle">奇技 · 奇技</text>
+</svg>

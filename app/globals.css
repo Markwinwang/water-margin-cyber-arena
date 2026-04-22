@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+:root {
+  --background: #120d0f;
+  --foreground: #f5ecdb;
+  --panel: rgba(20, 13, 16, 0.78);
+  --panel-strong: rgba(15, 10, 12, 0.92);
+  --muted: #c8b999;
+  --gold: #d4b16a;
+  --gold-soft: #f0d79a;
+  --ember: #b94c33;
+  --ink-blue: #4f648e;
+  --line: rgba(212, 177, 106, 0.16);
+  --shadow: 0 24px 80px rgba(0, 0, 0, 0.48);
+  --font-sans:
+    "PingFang SC", "Noto Sans SC", "Hiragino Sans GB", "Microsoft YaHei",
+    "Source Han Sans SC", sans-serif;
+  --font-display:
+    "STSong", "Songti SC", "Noto Serif SC", "Source Han Serif SC",
+    "Times New Roman", serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(circle at 14% 18%, rgba(185, 76, 51, 0.28), transparent 24%),
+    radial-gradient(circle at 82% 14%, rgba(79, 100, 142, 0.22), transparent 22%),
+    radial-gradient(circle at 58% 74%, rgba(212, 177, 106, 0.14), transparent 28%),
+    linear-gradient(180deg, #120d0f 0%, #171013 48%, #0a090b 100%);
+  color: var(--foreground);
+}
+
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+}
+
+body::before {
+  background:
+    linear-gradient(rgba(212, 177, 106, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(212, 177, 106, 0.12) 1px, transparent 1px);
+  background-size: 88px 88px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.95), transparent 94%);
+}
+
+body::after {
+  background:
+    radial-gradient(circle at center, rgba(255, 255, 255, 0.06) 0 1px, transparent 1px);
+  background-size: 28px 28px;
+  opacity: 0.08;
+  mix-blend-mode: soft-light;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(212, 177, 106, 0.24);
+  color: white;
+}
+
+.panel {
+  background: linear-gradient(180deg, rgba(20, 13, 16, 0.86), rgba(12, 10, 12, 0.94));
+  border: 1px solid rgba(212, 177, 106, 0.14);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(14px);
+}
+
+.chip {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.cyber-scrollbar::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.cyber-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(212, 177, 106, 0.42), rgba(185, 76, 51, 0.34));
+  border-radius: 999px;
+}
+
+.cyber-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.03);
+}
