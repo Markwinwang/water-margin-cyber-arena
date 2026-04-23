@@ -1,0 +1,940 @@
+{
+  "batches": [
+    {
+      "batch": 1,
+      "heroes": [
+        {
+          "id": 1,
+          "name_zh": "宋江",
+          "slug": "1-song-jiang",
+          "artwork_path": "/heroes/artwork/1-song-jiang.png",
+          "sprite_path": "/heroes/sprite/1-song-jiang.png",
+          "descriptor": "宋江 (呼保義), Chinese male rebel leader, black headscarf, thin mustache and pointed beard, dark crimson robe with black armor trim, calm commanding gaze"
+        },
+        {
+          "id": 2,
+          "name_zh": "卢俊义",
+          "slug": "2-lu-junyi",
+          "artwork_path": "/heroes/artwork/2-lu-junyi.png",
+          "sprite_path": "/heroes/sprite/2-lu-junyi.png",
+          "descriptor": "卢俊义 (玉麒麟), Chinese male noble champion, tall and powerful, refined stern face, silver-white armor with pale cloak accents, elite general aura"
+        },
+        {
+          "id": 3,
+          "name_zh": "吴用",
+          "slug": "3-wu-yong",
+          "artwork_path": "/heroes/artwork/3-wu-yong.png",
+          "sprite_path": "/heroes/sprite/3-wu-yong.png",
+          "descriptor": "吴用 (智多星), Chinese male strategist, elegant scholar face, black scholar hat, feather fan near shoulder, dark robe, intelligent calculating expression"
+        },
+        {
+          "id": 4,
+          "name_zh": "公孙胜",
+          "slug": "4-gongsun-sheng",
+          "artwork_path": "/heroes/artwork/4-gongsun-sheng.png",
+          "sprite_path": "/heroes/sprite/4-gongsun-sheng.png",
+          "descriptor": "公孙胜 (入雲龍), Chinese male Daoist warrior priest, topknot, Daoist crown, slight beard, dark teal Taoist robes, mystical but disciplined expression"
+        },
+        {
+          "id": 5,
+          "name_zh": "关胜",
+          "slug": "5-guan-sheng",
+          "artwork_path": "/heroes/artwork/5-guan-sheng.png",
+          "sprite_path": "/heroes/sprite/5-guan-sheng.png",
+          "descriptor": "关胜 (大刀), Chinese male great general, long beard, green lamellar armor, righteous and imposing, legendary guandao-general presence"
+        },
+        {
+          "id": 6,
+          "name_zh": "林沖",
+          "slug": "6-lin-chong",
+          "artwork_path": "/heroes/artwork/6-lin-chong.png",
+          "sprite_path": "/heroes/sprite/6-lin-chong.png",
+          "descriptor": "林沖 (豹子頭), Chinese male spear master, intense leopard-like eyes, rugged handsome face, dark armor, disciplined fighter aura"
+        },
+        {
+          "id": 7,
+          "name_zh": "秦明",
+          "slug": "7-qin-ming",
+          "artwork_path": "/heroes/artwork/7-qin-ming.png",
+          "sprite_path": "/heroes/sprite/7-qin-ming.png",
+          "descriptor": "秦明 (霹靂火), Chinese male vanguard warrior, fiery expression, heavier red armor, bold brows, brutal shock-troop presence"
+        },
+        {
+          "id": 8,
+          "name_zh": "呼延灼",
+          "slug": "8-huyan-zhuo",
+          "artwork_path": "/heroes/artwork/8-huyan-zhuo.png",
+          "sprite_path": "/heroes/sprite/8-huyan-zhuo.png",
+          "descriptor": "呼延灼 (雙鞭), Chinese male cavalry commander, heavy ornate armor, stern veteran face, dark steel and bronze accents"
+        },
+        {
+          "id": 9,
+          "name_zh": "花荣",
+          "slug": "9-hua-rong",
+          "artwork_path": "/heroes/artwork/9-hua-rong.png",
+          "sprite_path": "/heroes/sprite/9-hua-rong.png",
+          "descriptor": "花荣 (小李廣), Chinese male handsome archer, youthful heroic face, lighter armor, elegant archer styling, sharp focused eyes"
+        }
+      ],
+      "prompt": "Use case: historical-scene\nAsset type: 3x3 portrait sheet for a Chinese literary heroes website\nPrimary request: Create a single square image laid out as a clean 3x3 grid of nine separate portrait panels, each panel containing one distinct bust portrait of a Water Margin hero. Keep every portrait centered and visually separated so the sheet can be cropped into nine individual avatars later.\nScene/backdrop: each panel has a simple dark ink-texture background with subtle ember glow, no props, no scenery, no text\nStyle/medium: stylized semi-realistic digital painting, cinematic Chinese historical fantasy, consistent art direction across all nine portraits, high facial detail, readable at thumbnail size\nComposition/framing: each hero is chest-up or shoulders-up, centered in their own panel, enough padding around the head, one person per panel only\nLighting/mood: dramatic warm rim light, heroic but moody\nColor palette: ink black, aged gold, muted crimson, deep green, steel gray\nConstraints: exactly nine portraits in a 3x3 grid, no text, no watermark, no merged panels, no extra people, no hands covering faces, keep the portraits distinct and crop-friendly\nPanel order left-to-right, top-to-bottom:\n1. 宋江 (呼保義), Chinese male rebel leader, black headscarf, thin mustache and pointed beard, dark crimson robe with black armor trim, calm commanding gaze\n2. 卢俊义 (玉麒麟), Chinese male noble champion, tall and powerful, refined stern face, silver-white armor with pale cloak accents, elite general aura\n3. 吴用 (智多星), Chinese male strategist, elegant scholar face, black scholar hat, feather fan near shoulder, dark robe, intelligent calculating expression\n4. 公孙胜 (入雲龍), Chinese male Daoist warrior priest, topknot, Daoist crown, slight beard, dark teal Taoist robes, mystical but disciplined expression\n5. 关胜 (大刀), Chinese male great general, long beard, green lamellar armor, righteous and imposing, legendary guandao-general presence\n6. 林沖 (豹子頭), Chinese male spear master, intense leopard-like eyes, rugged handsome face, dark armor, disciplined fighter aura\n7. 秦明 (霹靂火), Chinese male vanguard warrior, fiery expression, heavier red armor, bold brows, brutal shock-troop presence\n8. 呼延灼 (雙鞭), Chinese male cavalry commander, heavy ornate armor, stern veteran face, dark steel and bronze accents\n9. 花荣 (小李廣), Chinese male handsome archer, youthful heroic face, lighter armor, elegant archer styling, sharp focused eyes\nBatch tag: water-margin-batch-01"
+    },
+    {
+      "batch": 2,
+      "heroes": [
+        {
+          "id": 10,
+          "name_zh": "柴进",
+          "slug": "10-chai-jin",
+          "artwork_path": "/heroes/artwork/10-chai-jin.svg",
+          "sprite_path": "/heroes/sprite/10-chai-jin.svg",
+          "descriptor": "柴进 (小旋風), Chinese male noble patron, refined aristocratic face, dark brocade robe with subtle armor accents, composed generous bearing"
+        },
+        {
+          "id": 11,
+          "name_zh": "李应",
+          "slug": "11-li-ying",
+          "artwork_path": "/heroes/artwork/11-li-ying.svg",
+          "sprite_path": "/heroes/sprite/11-li-ying.svg",
+          "descriptor": "李应 (撲天雕), Chinese male manor lord and weapon expert, sharp eyes, refined warrior clothing, concealed blade-master presence"
+        },
+        {
+          "id": 12,
+          "name_zh": "朱仝",
+          "slug": "12-zhu-tong",
+          "artwork_path": "/heroes/artwork/12-zhu-tong.svg",
+          "sprite_path": "/heroes/sprite/12-zhu-tong.svg",
+          "descriptor": "朱仝 (美鬚公), Chinese male heroic officer, beautiful long beard, calm righteous face, red-brown armor accents"
+        },
+        {
+          "id": 13,
+          "name_zh": "鲁智深",
+          "slug": "13-lu-zhishen",
+          "artwork_path": "/heroes/artwork/13-lu-zhishen.svg",
+          "sprite_path": "/heroes/sprite/13-lu-zhishen.svg",
+          "descriptor": "鲁智深 (花和尚), Chinese male giant warrior monk, shaved head, fierce eyes, heavy build, monk robes with battle-worn layers"
+        },
+        {
+          "id": 14,
+          "name_zh": "武松",
+          "slug": "14-wu-song",
+          "artwork_path": "/heroes/artwork/14-wu-song.svg",
+          "sprite_path": "/heroes/sprite/14-wu-song.svg",
+          "descriptor": "武松 (行者)), Chinese male wandering fighter, loose hair, hard handsome face, tough traveler layers, fierce tiger-slayer aura"
+        },
+        {
+          "id": 15,
+          "name_zh": "董平",
+          "slug": "15-dong-ping",
+          "artwork_path": "/heroes/artwork/15-dong-ping.svg",
+          "sprite_path": "/heroes/sprite/15-dong-ping.svg",
+          "descriptor": "董平 (雙槍將), Chinese male twin-spear general, youthful but proud, white-silver armor, sharp aristocratic features"
+        },
+        {
+          "id": 16,
+          "name_zh": "张清",
+          "slug": "16-zhang-qing",
+          "artwork_path": "/heroes/artwork/16-zhang-qing.svg",
+          "sprite_path": "/heroes/sprite/16-zhang-qing.svg",
+          "descriptor": "张清 (沒羽箭), Chinese male stone-throwing cavalry fighter, sharp gaze, lighter armor, agile precision-warrior presence"
+        },
+        {
+          "id": 17,
+          "name_zh": "杨志",
+          "slug": "17-yang-zhi",
+          "artwork_path": "/heroes/artwork/17-yang-zhi.svg",
+          "sprite_path": "/heroes/sprite/17-yang-zhi.svg",
+          "descriptor": "杨志 (青面獸), Chinese male scarred veteran warrior, stern face, blue-green armor, burdened but unbroken spirit"
+        },
+        {
+          "id": 18,
+          "name_zh": "徐宁",
+          "slug": "18-xu-ning",
+          "artwork_path": "/heroes/artwork/18-xu-ning.svg",
+          "sprite_path": "/heroes/sprite/18-xu-ning.svg",
+          "descriptor": "徐宁 (金槍手), Chinese male imperial guard instructor, polished lamellar armor, composed elite-soldier bearing"
+        }
+      ],
+      "prompt": "Use case: historical-scene\nAsset type: 3x3 portrait sheet for a Chinese literary heroes website\nPrimary request: Create a single square image laid out as a clean 3x3 grid of nine separate portrait panels, each panel containing one distinct bust portrait of a Water Margin hero. Keep every portrait centered and visually separated so the sheet can be cropped into nine individual avatars later.\nScene/backdrop: each panel has a simple dark ink-texture background with subtle ember glow, no props, no scenery, no text\nStyle/medium: stylized semi-realistic digital painting, cinematic Chinese historical fantasy, consistent art direction across all nine portraits, high facial detail, readable at thumbnail size\nComposition/framing: each hero is chest-up or shoulders-up, centered in their own panel, enough padding around the head, one person per panel only\nLighting/mood: dramatic warm rim light, heroic but moody\nColor palette: ink black, aged gold, muted crimson, deep green, steel gray\nConstraints: exactly nine portraits in a 3x3 grid, no text, no watermark, no merged panels, no extra people, no hands covering faces, keep the portraits distinct and crop-friendly\nPanel order left-to-right, top-to-bottom:\n1. 柴进 (小旋風), Chinese male noble patron, refined aristocratic face, dark brocade robe with subtle armor accents, composed generous bearing\n2. 李应 (撲天雕), Chinese male manor lord and weapon expert, sharp eyes, refined warrior clothing, concealed blade-master presence\n3. 朱仝 (美鬚公), Chinese male heroic officer, beautiful long beard, calm righteous face, red-brown armor accents\n4. 鲁智深 (花和尚), Chinese male giant warrior monk, shaved head, fierce eyes, heavy build, monk robes with battle-worn layers\n5. 武松 (行者)), Chinese male wandering fighter, loose hair, hard handsome face, tough traveler layers, fierce tiger-slayer aura\n6. 董平 (雙槍將), Chinese male twin-spear general, youthful but proud, white-silver armor, sharp aristocratic features\n7. 张清 (沒羽箭), Chinese male stone-throwing cavalry fighter, sharp gaze, lighter armor, agile precision-warrior presence\n8. 杨志 (青面獸), Chinese male scarred veteran warrior, stern face, blue-green armor, burdened but unbroken spirit\n9. 徐宁 (金槍手), Chinese male imperial guard instructor, polished lamellar armor, composed elite-soldier bearing\nBatch tag: water-margin-batch-02"
+    },
+    {
+      "batch": 3,
+      "heroes": [
+        {
+          "id": 19,
+          "name_zh": "索超",
+          "slug": "19-suo-chao",
+          "artwork_path": "/heroes/artwork/19-suo-chao.svg",
+          "sprite_path": "/heroes/sprite/19-suo-chao.svg",
+          "descriptor": "索超 (急先鋒), Chinese male wild charging warrior, heavy axe-fighter presence, forceful glare, thick armor"
+        },
+        {
+          "id": 20,
+          "name_zh": "戴宗",
+          "slug": "20-dai-zong",
+          "artwork_path": "/heroes/artwork/20-dai-zong.svg",
+          "sprite_path": "/heroes/sprite/20-dai-zong.svg",
+          "descriptor": "戴宗 (神行太保), Chinese male swift courier, lean face, travel wraps, fast-footed messenger-warrior energy"
+        },
+        {
+          "id": 21,
+          "name_zh": "刘唐",
+          "slug": "21-liu-tang",
+          "artwork_path": "/heroes/artwork/21-liu-tang.svg",
+          "sprite_path": "/heroes/sprite/21-liu-tang.svg",
+          "descriptor": "刘唐 (赤髮鬼), Chinese male outlaw fighter, strong jaw, red headscarf, rugged and hot-blooded"
+        },
+        {
+          "id": 22,
+          "name_zh": "李逵",
+          "slug": "22-li-kui",
+          "artwork_path": "/heroes/artwork/22-li-kui.svg",
+          "sprite_path": "/heroes/sprite/22-li-kui.svg",
+          "descriptor": "李逵 (黑旋風), Chinese male huge ferocious warrior, dark skin tone, wild beard, terrifying intensity, brute-force presence"
+        },
+        {
+          "id": 23,
+          "name_zh": "史进",
+          "slug": "23-shi-jin",
+          "artwork_path": "/heroes/artwork/23-shi-jin.svg",
+          "sprite_path": "/heroes/sprite/23-shi-jin.svg",
+          "descriptor": "史进 (九紋龍), Chinese male handsome young fighter, open robe collar, visible tattoo hints, passionate rebellious energy"
+        },
+        {
+          "id": 24,
+          "name_zh": "穆弘",
+          "slug": "24-mu-hong",
+          "artwork_path": "/heroes/artwork/24-mu-hong.svg",
+          "sprite_path": "/heroes/sprite/24-mu-hong.svg",
+          "descriptor": "穆弘 (沒遮攔), Chinese male river-town strongman, broad face, practical armor, intimidating grounded power"
+        },
+        {
+          "id": 25,
+          "name_zh": "雷横",
+          "slug": "25-lei-heng",
+          "artwork_path": "/heroes/artwork/25-lei-heng.svg",
+          "sprite_path": "/heroes/sprite/25-lei-heng.svg",
+          "descriptor": "雷横 (插翅虎), Chinese male stern constable-turned-outlaw, weathered face, practical dark armor"
+        },
+        {
+          "id": 26,
+          "name_zh": "李俊",
+          "slug": "26-li-jun",
+          "artwork_path": "/heroes/artwork/26-li-jun.svg",
+          "sprite_path": "/heroes/sprite/26-li-jun.svg",
+          "descriptor": "Chinese male Water Margin hero, name 李俊, nickname 混江龍, rounder face, short boxed beard, stubborn expression, braided leather headband, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 天壽, costume accents in slate blue and silver, signature weapon styling inspired by Sword, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 27,
+          "name_zh": "阮小二",
+          "slug": "27-ruan-xiao-er",
+          "artwork_path": "/heroes/artwork/27-ruan-xiao-er.svg",
+          "sprite_path": "/heroes/sprite/27-ruan-xiao-er.svg",
+          "descriptor": "阮小二 (立地太歲), Chinese male water-bandit elder brother, river fighter, weathered skin, darker travel layers"
+        }
+      ],
+      "prompt": "Use case: historical-scene\nAsset type: 3x3 portrait sheet for a Chinese literary heroes website\nPrimary request: Create a single square image laid out as a clean 3x3 grid of nine separate portrait panels, each panel containing one distinct bust portrait of a Water Margin hero. Keep every portrait centered and visually separated so the sheet can be cropped into nine individual avatars later.\nScene/backdrop: each panel has a simple dark ink-texture background with subtle ember glow, no props, no scenery, no text\nStyle/medium: stylized semi-realistic digital painting, cinematic Chinese historical fantasy, consistent art direction across all nine portraits, high facial detail, readable at thumbnail size\nComposition/framing: each hero is chest-up or shoulders-up, centered in their own panel, enough padding around the head, one person per panel only\nLighting/mood: dramatic warm rim light, heroic but moody\nColor palette: ink black, aged gold, muted crimson, deep green, steel gray\nConstraints: exactly nine portraits in a 3x3 grid, no text, no watermark, no merged panels, no extra people, no hands covering faces, keep the portraits distinct and crop-friendly\nPanel order left-to-right, top-to-bottom:\n1. 索超 (急先鋒), Chinese male wild charging warrior, heavy axe-fighter presence, forceful glare, thick armor\n2. 戴宗 (神行太保), Chinese male swift courier, lean face, travel wraps, fast-footed messenger-warrior energy\n3. 刘唐 (赤髮鬼), Chinese male outlaw fighter, strong jaw, red headscarf, rugged and hot-blooded\n4. 李逵 (黑旋風), Chinese male huge ferocious warrior, dark skin tone, wild beard, terrifying intensity, brute-force presence\n5. 史进 (九紋龍), Chinese male handsome young fighter, open robe collar, visible tattoo hints, passionate rebellious energy\n6. 穆弘 (沒遮攔), Chinese male river-town strongman, broad face, practical armor, intimidating grounded power\n7. 雷横 (插翅虎), Chinese male stern constable-turned-outlaw, weathered face, practical dark armor\n8. Chinese male Water Margin hero, name 李俊, nickname 混江龍, rounder face, short boxed beard, stubborn expression, braided leather headband, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 天壽, costume accents in slate blue and silver, signature weapon styling inspired by Sword, strong facial identity, historically inspired Song-dynasty styling\n9. 阮小二 (立地太歲), Chinese male water-bandit elder brother, river fighter, weathered skin, darker travel layers\nBatch tag: water-margin-batch-03"
+    },
+    {
+      "batch": 4,
+      "heroes": [
+        {
+          "id": 28,
+          "name_zh": "张横",
+          "slug": "28-zhang-heng",
+          "artwork_path": "/heroes/artwork/28-zhang-heng.svg",
+          "sprite_path": "/heroes/sprite/28-zhang-heng.svg",
+          "descriptor": "Chinese male Water Margin hero, name 张横, nickname 船火兒, younger clean-shaven face, sharp cheekbones, alert eyes, formal warrior topknot with dark ribbon, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 天平, costume accents in aged gold and black, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 29,
+          "name_zh": "阮小五",
+          "slug": "29-ruan-xiaowu",
+          "artwork_path": "/heroes/artwork/29-ruan-xiaowu.svg",
+          "sprite_path": "/heroes/sprite/29-ruan-xiaowu.svg",
+          "descriptor": "阮小五 (短命二郎), Chinese male water-bandit middle brother, tough grin, rough river gear, agile navy presence"
+        },
+        {
+          "id": 30,
+          "name_zh": "张顺",
+          "slug": "30-zhang-shun",
+          "artwork_path": "/heroes/artwork/30-zhang-shun.svg",
+          "sprite_path": "/heroes/sprite/30-zhang-shun.svg",
+          "descriptor": "张顺 (浪里白跳), Chinese male handsome water hero, lean swimmer build, calm eyes, navy fighter styling"
+        },
+        {
+          "id": 31,
+          "name_zh": "阮小七",
+          "slug": "31-ruan-xiaoqi",
+          "artwork_path": "/heroes/artwork/31-ruan-xiaoqi.svg",
+          "sprite_path": "/heroes/sprite/31-ruan-xiaoqi.svg",
+          "descriptor": "阮小七 (活閻羅), Chinese male water-bandit younger brother, fierce playful expression, travel wraps, dangerous river outlaw energy"
+        },
+        {
+          "id": 32,
+          "name_zh": "杨雄",
+          "slug": "32-yang-xiong",
+          "artwork_path": "/heroes/artwork/32-yang-xiong.svg",
+          "sprite_path": "/heroes/sprite/32-yang-xiong.svg",
+          "descriptor": "杨雄 (病關索), Chinese male executioner-warrior, cold stern face, dark officer layers"
+        },
+        {
+          "id": 33,
+          "name_zh": "石秀",
+          "slug": "33-shi-xiu",
+          "artwork_path": "/heroes/artwork/33-shi-xiu.svg",
+          "sprite_path": "/heroes/sprite/33-shi-xiu.svg",
+          "descriptor": "石秀 (拚命三郎), Chinese male lean deadly drifter, intense eyes, dark travel clothing, assassin-like sharpness"
+        },
+        {
+          "id": 34,
+          "name_zh": "解珍",
+          "slug": "34-xie-zhen",
+          "artwork_path": "/heroes/artwork/34-xie-zhen.svg",
+          "sprite_path": "/heroes/sprite/34-xie-zhen.svg",
+          "descriptor": "解珍 (兩頭蛇), Chinese male mountain hunter, fur-trimmed rugged clothing, hunter-warrior face"
+        },
+        {
+          "id": 35,
+          "name_zh": "解宝",
+          "slug": "35-xie-bao",
+          "artwork_path": "/heroes/artwork/35-xie-bao.svg",
+          "sprite_path": "/heroes/sprite/35-xie-bao.svg",
+          "descriptor": "解宝 (雙尾蠍), Chinese male mountain hunter, younger rugged hunter face, fur and leather layers"
+        },
+        {
+          "id": 36,
+          "name_zh": "燕青",
+          "slug": "36-yan-qing",
+          "artwork_path": "/heroes/artwork/36-yan-qing.svg",
+          "sprite_path": "/heroes/sprite/36-yan-qing.svg",
+          "descriptor": "燕青 (浪子), Chinese male youthful handsome retainer, elegant features, refined martial grace, performer-fighter aura"
+        }
+      ],
+      "prompt": "Use case: historical-scene\nAsset type: 3x3 portrait sheet for a Chinese literary heroes website\nPrimary request: Create a single square image laid out as a clean 3x3 grid of nine separate portrait panels, each panel containing one distinct bust portrait of a Water Margin hero. Keep every portrait centered and visually separated so the sheet can be cropped into nine individual avatars later.\nScene/backdrop: each panel has a simple dark ink-texture background with subtle ember glow, no props, no scenery, no text\nStyle/medium: stylized semi-realistic digital painting, cinematic Chinese historical fantasy, consistent art direction across all nine portraits, high facial detail, readable at thumbnail size\nComposition/framing: each hero is chest-up or shoulders-up, centered in their own panel, enough padding around the head, one person per panel only\nLighting/mood: dramatic warm rim light, heroic but moody\nColor palette: ink black, aged gold, muted crimson, deep green, steel gray\nConstraints: exactly nine portraits in a 3x3 grid, no text, no watermark, no merged panels, no extra people, no hands covering faces, keep the portraits distinct and crop-friendly\nPanel order left-to-right, top-to-bottom:\n1. Chinese male Water Margin hero, name 张横, nickname 船火兒, younger clean-shaven face, sharp cheekbones, alert eyes, formal warrior topknot with dark ribbon, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 天平, costume accents in aged gold and black, strong facial identity, historically inspired Song-dynasty styling\n2. 阮小五 (短命二郎), Chinese male water-bandit middle brother, tough grin, rough river gear, agile navy presence\n3. 张顺 (浪里白跳), Chinese male handsome water hero, lean swimmer build, calm eyes, navy fighter styling\n4. 阮小七 (活閻羅), Chinese male water-bandit younger brother, fierce playful expression, travel wraps, dangerous river outlaw energy\n5. 杨雄 (病關索), Chinese male executioner-warrior, cold stern face, dark officer layers\n6. 石秀 (拚命三郎), Chinese male lean deadly drifter, intense eyes, dark travel clothing, assassin-like sharpness\n7. 解珍 (兩頭蛇), Chinese male mountain hunter, fur-trimmed rugged clothing, hunter-warrior face\n8. 解宝 (雙尾蠍), Chinese male mountain hunter, younger rugged hunter face, fur and leather layers\n9. 燕青 (浪子), Chinese male youthful handsome retainer, elegant features, refined martial grace, performer-fighter aura\nBatch tag: water-margin-batch-04"
+    },
+    {
+      "batch": 5,
+      "heroes": [
+        {
+          "id": 37,
+          "name_zh": "朱武",
+          "slug": "37-zhu-wu",
+          "artwork_path": "/heroes/artwork/37-zhu-wu.svg",
+          "sprite_path": "/heroes/sprite/37-zhu-wu.svg",
+          "descriptor": "Chinese male Water Margin hero, name 朱武, nickname 神機軍師, younger clean-shaven face, sharp cheekbones, alert eyes, formal warrior topknot with dark ribbon, scholar-strategist presence, elegant robes, composed and intelligent expression, associated with 地魁, costume accents in aged gold and black, signature weapon styling inspired by 双剑, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 38,
+          "name_zh": "黄信",
+          "slug": "38-huang-xin",
+          "artwork_path": "/heroes/artwork/38-huang-xin.svg",
+          "sprite_path": "/heroes/sprite/38-huang-xin.svg",
+          "descriptor": "Chinese male Water Margin hero, name 黄信, nickname 鎮三山, broad square jaw, trimmed mustache, commanding gaze, simple headscarf under a bronze ornament, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地煞, costume accents in deep crimson and bronze, signature weapon styling inspired by 丧门剑 (喪門劍), strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 39,
+          "name_zh": "孙立",
+          "slug": "39-sun-li",
+          "artwork_path": "/heroes/artwork/39-sun-li.svg",
+          "sprite_path": "/heroes/sprite/39-sun-li.svg",
+          "descriptor": "Chinese male Water Margin hero, name 孙立, nickname 病尉遲, older scarred veteran face, thick brows, weathered skin, high topknot with narrow crown, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地勇, costume accents in dark teal and steel, signature weapon styling inspired by 长枪 / 钢鞭, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 40,
+          "name_zh": "宣赞",
+          "slug": "40-xuan-zan",
+          "artwork_path": "/heroes/artwork/40-xuan-zan.svg",
+          "sprite_path": "/heroes/sprite/40-xuan-zan.svg",
+          "descriptor": "Chinese male Water Margin hero, name 宣赞, nickname 醜郡馬, lean hawk-eyed face, short beard, calculating expression, windswept tied-back hair, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地傑, costume accents in moss green and iron gray, signature weapon styling inspired by 钢刀, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 41,
+          "name_zh": "郝思文",
+          "slug": "41-hao-siwen",
+          "artwork_path": "/heroes/artwork/41-hao-siwen.svg",
+          "sprite_path": "/heroes/sprite/41-hao-siwen.svg",
+          "descriptor": "Chinese male Water Margin hero, name 郝思文, nickname 井木犴, full beard, heavier brow, intimidating presence, travel-worn cloth headband, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地雄, costume accents in oxblood red and black, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 42,
+          "name_zh": "韩滔",
+          "slug": "42-han-tao",
+          "artwork_path": "/heroes/artwork/42-han-tao.svg",
+          "sprite_path": "/heroes/sprite/42-han-tao.svg",
+          "descriptor": "Chinese male Water Margin hero, name 韩滔, nickname 百勝將, noble refined features, thin mustache, composed poise, armored cap with subtle engraved details, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地威, costume accents in indigo and bronze, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 43,
+          "name_zh": "彭玘",
+          "slug": "43-peng-qi",
+          "artwork_path": "/heroes/artwork/43-peng-qi.svg",
+          "sprite_path": "/heroes/sprite/43-peng-qi.svg",
+          "descriptor": "Chinese male Water Margin hero, name 彭玘, nickname 天目將, sun-darkened rugged face, broken eyebrow scar, practical toughness, plain scholar cap, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地英, costume accents in umber and iron, signature weapon styling inspired by 钢刀 (三尖兩刃刀), strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 44,
+          "name_zh": "单廷圭",
+          "slug": "44-shan-tinggui",
+          "artwork_path": "/heroes/artwork/44-shan-tinggui.svg",
+          "sprite_path": "/heroes/sprite/44-shan-tinggui.svg",
+          "descriptor": "Chinese male Water Margin hero, name 单廷圭, nickname 聖水將軍, rounder face, short boxed beard, stubborn expression, braided leather headband, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地奇, costume accents in slate blue and silver, signature weapon styling inspired by Black 长枪 / 长弓 and arrows, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 45,
+          "name_zh": "魏定国",
+          "slug": "45-wei-dingguo",
+          "artwork_path": "/heroes/artwork/45-wei-dingguo.svg",
+          "sprite_path": "/heroes/sprite/45-wei-dingguo.svg",
+          "descriptor": "Chinese male Water Margin hero, name 魏定国, nickname 神火將軍, longer face, sparse mustache and goatee, restless energy, loose tied warrior hair with side strands, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地猛, costume accents in dark green and gold, signature weapon styling inspired by 钢刀 / 长弓 and arrows, strong facial identity, historically inspired Song-dynasty styling"
+        }
+      ],
+      "prompt": "Use case: historical-scene\nAsset type: 3x3 portrait sheet for a Chinese literary heroes website\nPrimary request: Create a single square image laid out as a clean 3x3 grid of nine separate portrait panels, each panel containing one distinct bust portrait of a Water Margin hero. Keep every portrait centered and visually separated so the sheet can be cropped into nine individual avatars later.\nScene/backdrop: each panel has a simple dark ink-texture background with subtle ember glow, no props, no scenery, no text\nStyle/medium: stylized semi-realistic digital painting, cinematic Chinese historical fantasy, consistent art direction across all nine portraits, high facial detail, readable at thumbnail size\nComposition/framing: each hero is chest-up or shoulders-up, centered in their own panel, enough padding around the head, one person per panel only\nLighting/mood: dramatic warm rim light, heroic but moody\nColor palette: ink black, aged gold, muted crimson, deep green, steel gray\nConstraints: exactly nine portraits in a 3x3 grid, no text, no watermark, no merged panels, no extra people, no hands covering faces, keep the portraits distinct and crop-friendly\nPanel order left-to-right, top-to-bottom:\n1. Chinese male Water Margin hero, name 朱武, nickname 神機軍師, younger clean-shaven face, sharp cheekbones, alert eyes, formal warrior topknot with dark ribbon, scholar-strategist presence, elegant robes, composed and intelligent expression, associated with 地魁, costume accents in aged gold and black, signature weapon styling inspired by 双剑, strong facial identity, historically inspired Song-dynasty styling\n2. Chinese male Water Margin hero, name 黄信, nickname 鎮三山, broad square jaw, trimmed mustache, commanding gaze, simple headscarf under a bronze ornament, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地煞, costume accents in deep crimson and bronze, signature weapon styling inspired by 丧门剑 (喪門劍), strong facial identity, historically inspired Song-dynasty styling\n3. Chinese male Water Margin hero, name 孙立, nickname 病尉遲, older scarred veteran face, thick brows, weathered skin, high topknot with narrow crown, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地勇, costume accents in dark teal and steel, signature weapon styling inspired by 长枪 / 钢鞭, strong facial identity, historically inspired Song-dynasty styling\n4. Chinese male Water Margin hero, name 宣赞, nickname 醜郡馬, lean hawk-eyed face, short beard, calculating expression, windswept tied-back hair, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地傑, costume accents in moss green and iron gray, signature weapon styling inspired by 钢刀, strong facial identity, historically inspired Song-dynasty styling\n5. Chinese male Water Margin hero, name 郝思文, nickname 井木犴, full beard, heavier brow, intimidating presence, travel-worn cloth headband, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地雄, costume accents in oxblood red and black, strong facial identity, historically inspired Song-dynasty styling\n6. Chinese male Water Margin hero, name 韩滔, nickname 百勝將, noble refined features, thin mustache, composed poise, armored cap with subtle engraved details, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地威, costume accents in indigo and bronze, strong facial identity, historically inspired Song-dynasty styling\n7. Chinese male Water Margin hero, name 彭玘, nickname 天目將, sun-darkened rugged face, broken eyebrow scar, practical toughness, plain scholar cap, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地英, costume accents in umber and iron, signature weapon styling inspired by 钢刀 (三尖兩刃刀), strong facial identity, historically inspired Song-dynasty styling\n8. Chinese male Water Margin hero, name 单廷圭, nickname 聖水將軍, rounder face, short boxed beard, stubborn expression, braided leather headband, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地奇, costume accents in slate blue and silver, signature weapon styling inspired by Black 长枪 / 长弓 and arrows, strong facial identity, historically inspired Song-dynasty styling\n9. Chinese male Water Margin hero, name 魏定国, nickname 神火將軍, longer face, sparse mustache and goatee, restless energy, loose tied warrior hair with side strands, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地猛, costume accents in dark green and gold, signature weapon styling inspired by 钢刀 / 长弓 and arrows, strong facial identity, historically inspired Song-dynasty styling\nBatch tag: water-margin-batch-05"
+    },
+    {
+      "batch": 6,
+      "heroes": [
+        {
+          "id": 46,
+          "name_zh": "萧让",
+          "slug": "46-xiao-rang",
+          "artwork_path": "/heroes/artwork/46-xiao-rang.svg",
+          "sprite_path": "/heroes/sprite/46-xiao-rang.svg",
+          "descriptor": "Chinese male Water Margin hero, name 萧让, nickname 聖手書生, younger clean-shaven face, sharp cheekbones, alert eyes, formal warrior topknot with dark ribbon, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地文, costume accents in aged gold and black, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 47,
+          "name_zh": "裴宣",
+          "slug": "47-pei-xuan",
+          "artwork_path": "/heroes/artwork/47-pei-xuan.svg",
+          "sprite_path": "/heroes/sprite/47-pei-xuan.svg",
+          "descriptor": "Chinese male Water Margin hero, name 裴宣, nickname 鐵面孔目, broad square jaw, trimmed mustache, commanding gaze, simple headscarf under a bronze ornament, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地正, costume accents in deep crimson and bronze, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 48,
+          "name_zh": "欧鹏",
+          "slug": "48-ou-peng",
+          "artwork_path": "/heroes/artwork/48-ou-peng.svg",
+          "sprite_path": "/heroes/sprite/48-ou-peng.svg",
+          "descriptor": "Chinese male Water Margin hero, name 欧鹏, nickname 摩雲金翅, older scarred veteran face, thick brows, weathered skin, high topknot with narrow crown, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地闊, costume accents in dark teal and steel, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 49,
+          "name_zh": "邓飞",
+          "slug": "49-deng-fei",
+          "artwork_path": "/heroes/artwork/49-deng-fei.svg",
+          "sprite_path": "/heroes/sprite/49-deng-fei.svg",
+          "descriptor": "Chinese male Water Margin hero, name 邓飞, nickname 火眼狻猊, lean hawk-eyed face, short beard, calculating expression, windswept tied-back hair, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地闔, costume accents in moss green and iron gray, signature weapon styling inspired by Iron 锁链 with spikes, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 50,
+          "name_zh": "燕顺",
+          "slug": "50-yan-shun",
+          "artwork_path": "/heroes/artwork/50-yan-shun.svg",
+          "sprite_path": "/heroes/sprite/50-yan-shun.svg",
+          "descriptor": "Chinese male Water Margin hero, name 燕顺, nickname 錦毛虎, full beard, heavier brow, intimidating presence, travel-worn cloth headband, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地強, costume accents in oxblood red and black, signature weapon styling inspired by 钢刀, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 51,
+          "name_zh": "杨林",
+          "slug": "51-yang-lin",
+          "artwork_path": "/heroes/artwork/51-yang-lin.svg",
+          "sprite_path": "/heroes/sprite/51-yang-lin.svg",
+          "descriptor": "Chinese male Water Margin hero, name 杨林, nickname 錦豹子, noble refined features, thin mustache, composed poise, armored cap with subtle engraved details, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地暗, costume accents in indigo and bronze, signature weapon styling inspired by Iron 长枪, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 52,
+          "name_zh": "凌振",
+          "slug": "52-ling-zhen",
+          "artwork_path": "/heroes/artwork/52-ling-zhen.svg",
+          "sprite_path": "/heroes/sprite/52-ling-zhen.svg",
+          "descriptor": "Chinese male Water Margin hero, name 凌振, nickname 轟天雷, sun-darkened rugged face, broken eyebrow scar, practical toughness, plain scholar cap, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地軸, costume accents in umber and iron, signature weapon styling inspired by Cannon / 长枪, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 53,
+          "name_zh": "蒋敬",
+          "slug": "53-jiang-jing",
+          "artwork_path": "/heroes/artwork/53-jiang-jing.svg",
+          "sprite_path": "/heroes/sprite/53-jiang-jing.svg",
+          "descriptor": "Chinese male Water Margin hero, name 蒋敬, nickname 神算子, rounder face, short boxed beard, stubborn expression, braided leather headband, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地會, costume accents in slate blue and silver, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 54,
+          "name_zh": "吕方",
+          "slug": "54-l-fang",
+          "artwork_path": "/heroes/artwork/54-l-fang.svg",
+          "sprite_path": "/heroes/sprite/54-l-fang.svg",
+          "descriptor": "Chinese male Water Margin hero, name 吕方, nickname 小溫侯, longer face, sparse mustache and goatee, restless energy, loose tied warrior hair with side strands, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地佐, costume accents in dark green and gold, signature weapon styling inspired by Sky Piercer (方天畫戟), strong facial identity, historically inspired Song-dynasty styling"
+        }
+      ],
+      "prompt": "Use case: historical-scene\nAsset type: 3x3 portrait sheet for a Chinese literary heroes website\nPrimary request: Create a single square image laid out as a clean 3x3 grid of nine separate portrait panels, each panel containing one distinct bust portrait of a Water Margin hero. Keep every portrait centered and visually separated so the sheet can be cropped into nine individual avatars later.\nScene/backdrop: each panel has a simple dark ink-texture background with subtle ember glow, no props, no scenery, no text\nStyle/medium: stylized semi-realistic digital painting, cinematic Chinese historical fantasy, consistent art direction across all nine portraits, high facial detail, readable at thumbnail size\nComposition/framing: each hero is chest-up or shoulders-up, centered in their own panel, enough padding around the head, one person per panel only\nLighting/mood: dramatic warm rim light, heroic but moody\nColor palette: ink black, aged gold, muted crimson, deep green, steel gray\nConstraints: exactly nine portraits in a 3x3 grid, no text, no watermark, no merged panels, no extra people, no hands covering faces, keep the portraits distinct and crop-friendly\nPanel order left-to-right, top-to-bottom:\n1. Chinese male Water Margin hero, name 萧让, nickname 聖手書生, younger clean-shaven face, sharp cheekbones, alert eyes, formal warrior topknot with dark ribbon, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地文, costume accents in aged gold and black, strong facial identity, historically inspired Song-dynasty styling\n2. Chinese male Water Margin hero, name 裴宣, nickname 鐵面孔目, broad square jaw, trimmed mustache, commanding gaze, simple headscarf under a bronze ornament, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地正, costume accents in deep crimson and bronze, strong facial identity, historically inspired Song-dynasty styling\n3. Chinese male Water Margin hero, name 欧鹏, nickname 摩雲金翅, older scarred veteran face, thick brows, weathered skin, high topknot with narrow crown, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地闊, costume accents in dark teal and steel, strong facial identity, historically inspired Song-dynasty styling\n4. Chinese male Water Margin hero, name 邓飞, nickname 火眼狻猊, lean hawk-eyed face, short beard, calculating expression, windswept tied-back hair, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地闔, costume accents in moss green and iron gray, signature weapon styling inspired by Iron 锁链 with spikes, strong facial identity, historically inspired Song-dynasty styling\n5. Chinese male Water Margin hero, name 燕顺, nickname 錦毛虎, full beard, heavier brow, intimidating presence, travel-worn cloth headband, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地強, costume accents in oxblood red and black, signature weapon styling inspired by 钢刀, strong facial identity, historically inspired Song-dynasty styling\n6. Chinese male Water Margin hero, name 杨林, nickname 錦豹子, noble refined features, thin mustache, composed poise, armored cap with subtle engraved details, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地暗, costume accents in indigo and bronze, signature weapon styling inspired by Iron 长枪, strong facial identity, historically inspired Song-dynasty styling\n7. Chinese male Water Margin hero, name 凌振, nickname 轟天雷, sun-darkened rugged face, broken eyebrow scar, practical toughness, plain scholar cap, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地軸, costume accents in umber and iron, signature weapon styling inspired by Cannon / 长枪, strong facial identity, historically inspired Song-dynasty styling\n8. Chinese male Water Margin hero, name 蒋敬, nickname 神算子, rounder face, short boxed beard, stubborn expression, braided leather headband, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地會, costume accents in slate blue and silver, strong facial identity, historically inspired Song-dynasty styling\n9. Chinese male Water Margin hero, name 吕方, nickname 小溫侯, longer face, sparse mustache and goatee, restless energy, loose tied warrior hair with side strands, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地佐, costume accents in dark green and gold, signature weapon styling inspired by Sky Piercer (方天畫戟), strong facial identity, historically inspired Song-dynasty styling\nBatch tag: water-margin-batch-06"
+    },
+    {
+      "batch": 7,
+      "heroes": [
+        {
+          "id": 55,
+          "name_zh": "郭盛",
+          "slug": "55-guo-sheng",
+          "artwork_path": "/heroes/artwork/55-guo-sheng.svg",
+          "sprite_path": "/heroes/sprite/55-guo-sheng.svg",
+          "descriptor": "Chinese male Water Margin hero, name 郭盛, nickname 賽仁貴, younger clean-shaven face, sharp cheekbones, alert eyes, formal warrior topknot with dark ribbon, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地祐, costume accents in aged gold and black, signature weapon styling inspired by \" Sky Piercer \" (方天畫戟), strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 56,
+          "name_zh": "安道全",
+          "slug": "56-an-daoquan",
+          "artwork_path": "/heroes/artwork/56-an-daoquan.svg",
+          "sprite_path": "/heroes/sprite/56-an-daoquan.svg",
+          "descriptor": "Chinese male Water Margin hero, name 安道全, nickname 神醫, broad square jaw, trimmed mustache, commanding gaze, simple headscarf under a bronze ornament, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地靈, costume accents in deep crimson and bronze, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 57,
+          "name_zh": "皇甫端",
+          "slug": "57-huangfu-duan",
+          "artwork_path": "/heroes/artwork/57-huangfu-duan.svg",
+          "sprite_path": "/heroes/sprite/57-huangfu-duan.svg",
+          "descriptor": "Chinese male Water Margin hero, name 皇甫端, nickname 紫髯伯, older scarred veteran face, thick brows, weathered skin, high topknot with narrow crown, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地獸, costume accents in dark teal and steel, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 58,
+          "name_zh": "王英",
+          "slug": "58-wang-ying",
+          "artwork_path": "/heroes/artwork/58-wang-ying.svg",
+          "sprite_path": "/heroes/sprite/58-wang-ying.svg",
+          "descriptor": "Chinese male Water Margin hero, name 王英, nickname 矮腳虎, lean hawk-eyed face, short beard, calculating expression, windswept tied-back hair, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地微, costume accents in moss green and iron gray, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 59,
+          "name_zh": "扈三娘",
+          "slug": "59-hu-sanniang",
+          "artwork_path": "/heroes/artwork/59-hu-sanniang.svg",
+          "sprite_path": "/heroes/sprite/59-hu-sanniang.svg",
+          "descriptor": "扈三娘 (一丈青), Chinese female warrior, beautiful but fierce, light armor, twin-blade or spear-general styling, heroic focus"
+        },
+        {
+          "id": 60,
+          "name_zh": "鲍旭",
+          "slug": "60-bao-xu",
+          "artwork_path": "/heroes/artwork/60-bao-xu.svg",
+          "sprite_path": "/heroes/sprite/60-bao-xu.svg",
+          "descriptor": "Chinese male Water Margin hero, name 鲍旭, nickname 喪門神, noble refined features, thin mustache, composed poise, armored cap with subtle engraved details, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地暴, costume accents in indigo and bronze, signature weapon styling inspired by Sword (闊刃劍), strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 61,
+          "name_zh": "樊瑞",
+          "slug": "61-fan-rui",
+          "artwork_path": "/heroes/artwork/61-fan-rui.svg",
+          "sprite_path": "/heroes/sprite/61-fan-rui.svg",
+          "descriptor": "Chinese male Water Margin hero, name 樊瑞, nickname 混世魔王, sun-darkened rugged face, broken eyebrow scar, practical toughness, plain scholar cap, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地然, costume accents in umber and iron, signature weapon styling inspired by 锁链 spiked mace (流星槌), strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 62,
+          "name_zh": "孔明",
+          "slug": "62-kong-ming",
+          "artwork_path": "/heroes/artwork/62-kong-ming.svg",
+          "sprite_path": "/heroes/sprite/62-kong-ming.svg",
+          "descriptor": "Chinese male Water Margin hero, name 孔明, nickname 毛頭星, rounder face, short boxed beard, stubborn expression, braided leather headband, distinct outlaw hero presence, Song-dynasty clothing and armor, associated with 地猖, costume accents in slate blue and silver, signature weapon styling inspired by 长枪, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 63,
+          "name_zh": "孔亮",
+          "slug": "63-kong-liang",
+          "artwork_path": "/heroes/artwork/63-kong-liang.svg",
+          "sprite_path": "/heroes/sprite/63-kong-liang.svg",
+          "descriptor": "Chinese male Water Margin hero, name 孔亮, nickname 獨火星, longer face, sparse mustache and goatee, restless energy, loose tied warrior hair with side strands, distinct outlaw hero presence, Song-dynasty clothing and armor, associated with 地狂, costume accents in dark green and gold, signature weapon styling inspired by 长枪, strong facial identity, historically inspired Song-dynasty styling"
+        }
+      ],
+      "prompt": "Use case: historical-scene\nAsset type: 3x3 portrait sheet for a Chinese literary heroes website\nPrimary request: Create a single square image laid out as a clean 3x3 grid of nine separate portrait panels, each panel containing one distinct bust portrait of a Water Margin hero. Keep every portrait centered and visually separated so the sheet can be cropped into nine individual avatars later.\nScene/backdrop: each panel has a simple dark ink-texture background with subtle ember glow, no props, no scenery, no text\nStyle/medium: stylized semi-realistic digital painting, cinematic Chinese historical fantasy, consistent art direction across all nine portraits, high facial detail, readable at thumbnail size\nComposition/framing: each hero is chest-up or shoulders-up, centered in their own panel, enough padding around the head, one person per panel only\nLighting/mood: dramatic warm rim light, heroic but moody\nColor palette: ink black, aged gold, muted crimson, deep green, steel gray\nConstraints: exactly nine portraits in a 3x3 grid, no text, no watermark, no merged panels, no extra people, no hands covering faces, keep the portraits distinct and crop-friendly\nPanel order left-to-right, top-to-bottom:\n1. Chinese male Water Margin hero, name 郭盛, nickname 賽仁貴, younger clean-shaven face, sharp cheekbones, alert eyes, formal warrior topknot with dark ribbon, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地祐, costume accents in aged gold and black, signature weapon styling inspired by \" Sky Piercer \" (方天畫戟), strong facial identity, historically inspired Song-dynasty styling\n2. Chinese male Water Margin hero, name 安道全, nickname 神醫, broad square jaw, trimmed mustache, commanding gaze, simple headscarf under a bronze ornament, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地靈, costume accents in deep crimson and bronze, strong facial identity, historically inspired Song-dynasty styling\n3. Chinese male Water Margin hero, name 皇甫端, nickname 紫髯伯, older scarred veteran face, thick brows, weathered skin, high topknot with narrow crown, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地獸, costume accents in dark teal and steel, strong facial identity, historically inspired Song-dynasty styling\n4. Chinese male Water Margin hero, name 王英, nickname 矮腳虎, lean hawk-eyed face, short beard, calculating expression, windswept tied-back hair, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地微, costume accents in moss green and iron gray, strong facial identity, historically inspired Song-dynasty styling\n5. 扈三娘 (一丈青), Chinese female warrior, beautiful but fierce, light armor, twin-blade or spear-general styling, heroic focus\n6. Chinese male Water Margin hero, name 鲍旭, nickname 喪門神, noble refined features, thin mustache, composed poise, armored cap with subtle engraved details, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地暴, costume accents in indigo and bronze, signature weapon styling inspired by Sword (闊刃劍), strong facial identity, historically inspired Song-dynasty styling\n7. Chinese male Water Margin hero, name 樊瑞, nickname 混世魔王, sun-darkened rugged face, broken eyebrow scar, practical toughness, plain scholar cap, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地然, costume accents in umber and iron, signature weapon styling inspired by 锁链 spiked mace (流星槌), strong facial identity, historically inspired Song-dynasty styling\n8. Chinese male Water Margin hero, name 孔明, nickname 毛頭星, rounder face, short boxed beard, stubborn expression, braided leather headband, distinct outlaw hero presence, Song-dynasty clothing and armor, associated with 地猖, costume accents in slate blue and silver, signature weapon styling inspired by 长枪, strong facial identity, historically inspired Song-dynasty styling\n9. Chinese male Water Margin hero, name 孔亮, nickname 獨火星, longer face, sparse mustache and goatee, restless energy, loose tied warrior hair with side strands, distinct outlaw hero presence, Song-dynasty clothing and armor, associated with 地狂, costume accents in dark green and gold, signature weapon styling inspired by 长枪, strong facial identity, historically inspired Song-dynasty styling\nBatch tag: water-margin-batch-07"
+    },
+    {
+      "batch": 8,
+      "heroes": [
+        {
+          "id": 64,
+          "name_zh": "项充",
+          "slug": "64-xiang-chong",
+          "artwork_path": "/heroes/artwork/64-xiang-chong.svg",
+          "sprite_path": "/heroes/sprite/64-xiang-chong.svg",
+          "descriptor": "Chinese male Water Margin hero, name 项充, nickname 八臂哪吒, younger clean-shaven face, sharp cheekbones, alert eyes, formal warrior topknot with dark ribbon, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地飛, costume accents in aged gold and black, signature weapon styling inspired by 长枪 / Flying 短刃, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 65,
+          "name_zh": "李衮",
+          "slug": "65-li-gun",
+          "artwork_path": "/heroes/artwork/65-li-gun.svg",
+          "sprite_path": "/heroes/sprite/65-li-gun.svg",
+          "descriptor": "Chinese male Water Margin hero, name 李衮, nickname 飛天大聖, broad square jaw, trimmed mustache, commanding gaze, simple headscarf under a bronze ornament, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地走, costume accents in deep crimson and bronze, signature weapon styling inspired by Sword / Javelins, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 66,
+          "name_zh": "金大坚",
+          "slug": "66-jin-dajian",
+          "artwork_path": "/heroes/artwork/66-jin-dajian.svg",
+          "sprite_path": "/heroes/sprite/66-jin-dajian.svg",
+          "descriptor": "Chinese male Water Margin hero, name 金大坚, nickname 玉臂匠, older scarred veteran face, thick brows, weathered skin, high topknot with narrow crown, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地巧, costume accents in dark teal and steel, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 67,
+          "name_zh": "马麟",
+          "slug": "67-ma-lin",
+          "artwork_path": "/heroes/artwork/67-ma-lin.svg",
+          "sprite_path": "/heroes/sprite/67-ma-lin.svg",
+          "descriptor": "Chinese male Water Margin hero, name 马麟, nickname 鐵笛仙, lean hawk-eyed face, short beard, calculating expression, windswept tied-back hair, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地明, costume accents in moss green and iron gray, signature weapon styling inspired by Pair of 钢刀s, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 68,
+          "name_zh": "童威",
+          "slug": "68-tong-wei",
+          "artwork_path": "/heroes/artwork/68-tong-wei.svg",
+          "sprite_path": "/heroes/sprite/68-tong-wei.svg",
+          "descriptor": "Chinese male Water Margin hero, name 童威, nickname 出洞蛟, full beard, heavier brow, intimidating presence, travel-worn cloth headband, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地進, costume accents in oxblood red and black, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 69,
+          "name_zh": "童猛",
+          "slug": "69-tong-meng",
+          "artwork_path": "/heroes/artwork/69-tong-meng.svg",
+          "sprite_path": "/heroes/sprite/69-tong-meng.svg",
+          "descriptor": "Chinese male Water Margin hero, name 童猛, nickname 翻江蜃, noble refined features, thin mustache, composed poise, armored cap with subtle engraved details, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地退, costume accents in indigo and bronze, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 70,
+          "name_zh": "孟康",
+          "slug": "70-meng-kang",
+          "artwork_path": "/heroes/artwork/70-meng-kang.svg",
+          "sprite_path": "/heroes/sprite/70-meng-kang.svg",
+          "descriptor": "Chinese male Water Margin hero, name 孟康, nickname 玉幡竿, sun-darkened rugged face, broken eyebrow scar, practical toughness, plain scholar cap, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地滿, costume accents in umber and iron, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 71,
+          "name_zh": "侯健",
+          "slug": "71-hou-jian",
+          "artwork_path": "/heroes/artwork/71-hou-jian.svg",
+          "sprite_path": "/heroes/sprite/71-hou-jian.svg",
+          "descriptor": "Chinese male Water Margin hero, name 侯健, nickname 通臂猿, rounder face, short boxed beard, stubborn expression, braided leather headband, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地遂, costume accents in slate blue and silver, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 72,
+          "name_zh": "陈达",
+          "slug": "72-chen-da",
+          "artwork_path": "/heroes/artwork/72-chen-da.svg",
+          "sprite_path": "/heroes/sprite/72-chen-da.svg",
+          "descriptor": "Chinese male Water Margin hero, name 陈达, nickname 跳澗虎, longer face, sparse mustache and goatee, restless energy, loose tied warrior hair with side strands, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地周, costume accents in dark green and gold, signature weapon styling inspired by Iron 长枪, strong facial identity, historically inspired Song-dynasty styling"
+        }
+      ],
+      "prompt": "Use case: historical-scene\nAsset type: 3x3 portrait sheet for a Chinese literary heroes website\nPrimary request: Create a single square image laid out as a clean 3x3 grid of nine separate portrait panels, each panel containing one distinct bust portrait of a Water Margin hero. Keep every portrait centered and visually separated so the sheet can be cropped into nine individual avatars later.\nScene/backdrop: each panel has a simple dark ink-texture background with subtle ember glow, no props, no scenery, no text\nStyle/medium: stylized semi-realistic digital painting, cinematic Chinese historical fantasy, consistent art direction across all nine portraits, high facial detail, readable at thumbnail size\nComposition/framing: each hero is chest-up or shoulders-up, centered in their own panel, enough padding around the head, one person per panel only\nLighting/mood: dramatic warm rim light, heroic but moody\nColor palette: ink black, aged gold, muted crimson, deep green, steel gray\nConstraints: exactly nine portraits in a 3x3 grid, no text, no watermark, no merged panels, no extra people, no hands covering faces, keep the portraits distinct and crop-friendly\nPanel order left-to-right, top-to-bottom:\n1. Chinese male Water Margin hero, name 项充, nickname 八臂哪吒, younger clean-shaven face, sharp cheekbones, alert eyes, formal warrior topknot with dark ribbon, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地飛, costume accents in aged gold and black, signature weapon styling inspired by 长枪 / Flying 短刃, strong facial identity, historically inspired Song-dynasty styling\n2. Chinese male Water Margin hero, name 李衮, nickname 飛天大聖, broad square jaw, trimmed mustache, commanding gaze, simple headscarf under a bronze ornament, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地走, costume accents in deep crimson and bronze, signature weapon styling inspired by Sword / Javelins, strong facial identity, historically inspired Song-dynasty styling\n3. Chinese male Water Margin hero, name 金大坚, nickname 玉臂匠, older scarred veteran face, thick brows, weathered skin, high topknot with narrow crown, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地巧, costume accents in dark teal and steel, strong facial identity, historically inspired Song-dynasty styling\n4. Chinese male Water Margin hero, name 马麟, nickname 鐵笛仙, lean hawk-eyed face, short beard, calculating expression, windswept tied-back hair, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地明, costume accents in moss green and iron gray, signature weapon styling inspired by Pair of 钢刀s, strong facial identity, historically inspired Song-dynasty styling\n5. Chinese male Water Margin hero, name 童威, nickname 出洞蛟, full beard, heavier brow, intimidating presence, travel-worn cloth headband, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地進, costume accents in oxblood red and black, strong facial identity, historically inspired Song-dynasty styling\n6. Chinese male Water Margin hero, name 童猛, nickname 翻江蜃, noble refined features, thin mustache, composed poise, armored cap with subtle engraved details, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地退, costume accents in indigo and bronze, strong facial identity, historically inspired Song-dynasty styling\n7. Chinese male Water Margin hero, name 孟康, nickname 玉幡竿, sun-darkened rugged face, broken eyebrow scar, practical toughness, plain scholar cap, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地滿, costume accents in umber and iron, strong facial identity, historically inspired Song-dynasty styling\n8. Chinese male Water Margin hero, name 侯健, nickname 通臂猿, rounder face, short boxed beard, stubborn expression, braided leather headband, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地遂, costume accents in slate blue and silver, strong facial identity, historically inspired Song-dynasty styling\n9. Chinese male Water Margin hero, name 陈达, nickname 跳澗虎, longer face, sparse mustache and goatee, restless energy, loose tied warrior hair with side strands, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地周, costume accents in dark green and gold, signature weapon styling inspired by Iron 长枪, strong facial identity, historically inspired Song-dynasty styling\nBatch tag: water-margin-batch-08"
+    },
+    {
+      "batch": 9,
+      "heroes": [
+        {
+          "id": 73,
+          "name_zh": "杨春",
+          "slug": "73-yang-chun",
+          "artwork_path": "/heroes/artwork/73-yang-chun.svg",
+          "sprite_path": "/heroes/sprite/73-yang-chun.svg",
+          "descriptor": "Chinese male Water Margin hero, name 杨春, nickname 白花蛇, younger clean-shaven face, sharp cheekbones, alert eyes, formal warrior topknot with dark ribbon, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地隱, costume accents in aged gold and black, signature weapon styling inspired by 钢刀, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 74,
+          "name_zh": "郑天寿",
+          "slug": "74-zheng-tianshou",
+          "artwork_path": "/heroes/artwork/74-zheng-tianshou.svg",
+          "sprite_path": "/heroes/sprite/74-zheng-tianshou.svg",
+          "descriptor": "Chinese male Water Margin hero, name 郑天寿, nickname 白面郎君, broad square jaw, trimmed mustache, commanding gaze, simple headscarf under a bronze ornament, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地異, costume accents in deep crimson and bronze, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 75,
+          "name_zh": "陶宗旺",
+          "slug": "75-tao-zongwang",
+          "artwork_path": "/heroes/artwork/75-tao-zongwang.svg",
+          "sprite_path": "/heroes/sprite/75-tao-zongwang.svg",
+          "descriptor": "Chinese male Water Margin hero, name 陶宗旺, nickname 九尾龜, older scarred veteran face, thick brows, weathered skin, high topknot with narrow crown, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地理, costume accents in dark teal and steel, signature weapon styling inspired by Iron shovel, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 76,
+          "name_zh": "宋清",
+          "slug": "76-song-qing",
+          "artwork_path": "/heroes/artwork/76-song-qing.svg",
+          "sprite_path": "/heroes/sprite/76-song-qing.svg",
+          "descriptor": "Chinese male Water Margin hero, name 宋清, nickname 鐵扇子, lean hawk-eyed face, short beard, calculating expression, windswept tied-back hair, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地俊, costume accents in moss green and iron gray, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 77,
+          "name_zh": "乐和",
+          "slug": "77-yue-he",
+          "artwork_path": "/heroes/artwork/77-yue-he.svg",
+          "sprite_path": "/heroes/sprite/77-yue-he.svg",
+          "descriptor": "Chinese male Water Margin hero, name 乐和, nickname 鐵叫子, full beard, heavier brow, intimidating presence, travel-worn cloth headband, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地樂, costume accents in oxblood red and black, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 78,
+          "name_zh": "龚旺",
+          "slug": "78-gong-wang",
+          "artwork_path": "/heroes/artwork/78-gong-wang.svg",
+          "sprite_path": "/heroes/sprite/78-gong-wang.svg",
+          "descriptor": "Chinese male Water Margin hero, name 龚旺, nickname 花項虎, noble refined features, thin mustache, composed poise, armored cap with subtle engraved details, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地捷, costume accents in indigo and bronze, signature weapon styling inspired by 长枪, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 79,
+          "name_zh": "丁得孙",
+          "slug": "79-ding-desun",
+          "artwork_path": "/heroes/artwork/79-ding-desun.svg",
+          "sprite_path": "/heroes/sprite/79-ding-desun.svg",
+          "descriptor": "Chinese male Water Margin hero, name 丁得孙, nickname 中箭虎, sun-darkened rugged face, broken eyebrow scar, practical toughness, plain scholar cap, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地速, costume accents in umber and iron, signature weapon styling inspired by 铁叉ed 长枪, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 80,
+          "name_zh": "穆春",
+          "slug": "80-mu-chun",
+          "artwork_path": "/heroes/artwork/80-mu-chun.svg",
+          "sprite_path": "/heroes/sprite/80-mu-chun.svg",
+          "descriptor": "Chinese male Water Margin hero, name 穆春, nickname 小遮攔, rounder face, short boxed beard, stubborn expression, braided leather headband, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地鎮, costume accents in slate blue and silver, signature weapon styling inspired by 钢刀, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 81,
+          "name_zh": "曹正",
+          "slug": "81-cao-zheng",
+          "artwork_path": "/heroes/artwork/81-cao-zheng.svg",
+          "sprite_path": "/heroes/sprite/81-cao-zheng.svg",
+          "descriptor": "Chinese male Water Margin hero, name 曹正, nickname 操刀鬼, longer face, sparse mustache and goatee, restless energy, loose tied warrior hair with side strands, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地稽, costume accents in dark green and gold, strong facial identity, historically inspired Song-dynasty styling"
+        }
+      ],
+      "prompt": "Use case: historical-scene\nAsset type: 3x3 portrait sheet for a Chinese literary heroes website\nPrimary request: Create a single square image laid out as a clean 3x3 grid of nine separate portrait panels, each panel containing one distinct bust portrait of a Water Margin hero. Keep every portrait centered and visually separated so the sheet can be cropped into nine individual avatars later.\nScene/backdrop: each panel has a simple dark ink-texture background with subtle ember glow, no props, no scenery, no text\nStyle/medium: stylized semi-realistic digital painting, cinematic Chinese historical fantasy, consistent art direction across all nine portraits, high facial detail, readable at thumbnail size\nComposition/framing: each hero is chest-up or shoulders-up, centered in their own panel, enough padding around the head, one person per panel only\nLighting/mood: dramatic warm rim light, heroic but moody\nColor palette: ink black, aged gold, muted crimson, deep green, steel gray\nConstraints: exactly nine portraits in a 3x3 grid, no text, no watermark, no merged panels, no extra people, no hands covering faces, keep the portraits distinct and crop-friendly\nPanel order left-to-right, top-to-bottom:\n1. Chinese male Water Margin hero, name 杨春, nickname 白花蛇, younger clean-shaven face, sharp cheekbones, alert eyes, formal warrior topknot with dark ribbon, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地隱, costume accents in aged gold and black, signature weapon styling inspired by 钢刀, strong facial identity, historically inspired Song-dynasty styling\n2. Chinese male Water Margin hero, name 郑天寿, nickname 白面郎君, broad square jaw, trimmed mustache, commanding gaze, simple headscarf under a bronze ornament, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地異, costume accents in deep crimson and bronze, strong facial identity, historically inspired Song-dynasty styling\n3. Chinese male Water Margin hero, name 陶宗旺, nickname 九尾龜, older scarred veteran face, thick brows, weathered skin, high topknot with narrow crown, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地理, costume accents in dark teal and steel, signature weapon styling inspired by Iron shovel, strong facial identity, historically inspired Song-dynasty styling\n4. Chinese male Water Margin hero, name 宋清, nickname 鐵扇子, lean hawk-eyed face, short beard, calculating expression, windswept tied-back hair, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地俊, costume accents in moss green and iron gray, strong facial identity, historically inspired Song-dynasty styling\n5. Chinese male Water Margin hero, name 乐和, nickname 鐵叫子, full beard, heavier brow, intimidating presence, travel-worn cloth headband, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地樂, costume accents in oxblood red and black, strong facial identity, historically inspired Song-dynasty styling\n6. Chinese male Water Margin hero, name 龚旺, nickname 花項虎, noble refined features, thin mustache, composed poise, armored cap with subtle engraved details, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地捷, costume accents in indigo and bronze, signature weapon styling inspired by 长枪, strong facial identity, historically inspired Song-dynasty styling\n7. Chinese male Water Margin hero, name 丁得孙, nickname 中箭虎, sun-darkened rugged face, broken eyebrow scar, practical toughness, plain scholar cap, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地速, costume accents in umber and iron, signature weapon styling inspired by 铁叉ed 长枪, strong facial identity, historically inspired Song-dynasty styling\n8. Chinese male Water Margin hero, name 穆春, nickname 小遮攔, rounder face, short boxed beard, stubborn expression, braided leather headband, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地鎮, costume accents in slate blue and silver, signature weapon styling inspired by 钢刀, strong facial identity, historically inspired Song-dynasty styling\n9. Chinese male Water Margin hero, name 曹正, nickname 操刀鬼, longer face, sparse mustache and goatee, restless energy, loose tied warrior hair with side strands, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地稽, costume accents in dark green and gold, strong facial identity, historically inspired Song-dynasty styling\nBatch tag: water-margin-batch-09"
+    },
+    {
+      "batch": 10,
+      "heroes": [
+        {
+          "id": 82,
+          "name_zh": "宋万",
+          "slug": "82-song-wan",
+          "artwork_path": "/heroes/artwork/82-song-wan.svg",
+          "sprite_path": "/heroes/sprite/82-song-wan.svg",
+          "descriptor": "Chinese male Water Margin hero, name 宋万, nickname 雲裏金剛, younger clean-shaven face, sharp cheekbones, alert eyes, formal warrior topknot with dark ribbon, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地魔, costume accents in aged gold and black, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 83,
+          "name_zh": "杜迁",
+          "slug": "83-du-qian",
+          "artwork_path": "/heroes/artwork/83-du-qian.svg",
+          "sprite_path": "/heroes/sprite/83-du-qian.svg",
+          "descriptor": "Chinese male Water Margin hero, name 杜迁, nickname 摸着天, broad square jaw, trimmed mustache, commanding gaze, simple headscarf under a bronze ornament, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地妖, costume accents in deep crimson and bronze, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 84,
+          "name_zh": "薛永",
+          "slug": "84-xue-yong",
+          "artwork_path": "/heroes/artwork/84-xue-yong.svg",
+          "sprite_path": "/heroes/sprite/84-xue-yong.svg",
+          "descriptor": "Chinese male Water Margin hero, name 薛永, nickname 病大蟲, older scarred veteran face, thick brows, weathered skin, high topknot with narrow crown, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地幽, costume accents in dark teal and steel, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 85,
+          "name_zh": "施恩",
+          "slug": "85-shi-en",
+          "artwork_path": "/heroes/artwork/85-shi-en.svg",
+          "sprite_path": "/heroes/sprite/85-shi-en.svg",
+          "descriptor": "Chinese male Water Margin hero, name 施恩, nickname 金眼彪, lean hawk-eyed face, short beard, calculating expression, windswept tied-back hair, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地伏, costume accents in moss green and iron gray, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 86,
+          "name_zh": "李忠",
+          "slug": "86-li-zhong",
+          "artwork_path": "/heroes/artwork/86-li-zhong.svg",
+          "sprite_path": "/heroes/sprite/86-li-zhong.svg",
+          "descriptor": "Chinese male Water Margin hero, name 李忠, nickname 打虎將, full beard, heavier brow, intimidating presence, travel-worn cloth headband, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地僻, costume accents in oxblood red and black, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 87,
+          "name_zh": "周通",
+          "slug": "87-zhou-tong",
+          "artwork_path": "/heroes/artwork/87-zhou-tong.svg",
+          "sprite_path": "/heroes/sprite/87-zhou-tong.svg",
+          "descriptor": "Chinese male Water Margin hero, name 周通, nickname 小覇王, noble refined features, thin mustache, composed poise, armored cap with subtle engraved details, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地空, costume accents in indigo and bronze, signature weapon styling inspired by 长枪 (走水綠沉槍), strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 88,
+          "name_zh": "汤隆",
+          "slug": "88-tang-long",
+          "artwork_path": "/heroes/artwork/88-tang-long.svg",
+          "sprite_path": "/heroes/sprite/88-tang-long.svg",
+          "descriptor": "Chinese male Water Margin hero, name 汤隆, nickname 金錢豹子, sun-darkened rugged face, broken eyebrow scar, practical toughness, plain scholar cap, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地孤, costume accents in umber and iron, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 89,
+          "name_zh": "杜兴",
+          "slug": "89-du-xing",
+          "artwork_path": "/heroes/artwork/89-du-xing.svg",
+          "sprite_path": "/heroes/sprite/89-du-xing.svg",
+          "descriptor": "Chinese male Water Margin hero, name 杜兴, nickname 鬼臉兒, rounder face, short boxed beard, stubborn expression, braided leather headband, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地全, costume accents in slate blue and silver, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 90,
+          "name_zh": "邹渊",
+          "slug": "90-zou-yuan",
+          "artwork_path": "/heroes/artwork/90-zou-yuan.svg",
+          "sprite_path": "/heroes/sprite/90-zou-yuan.svg",
+          "descriptor": "Chinese male Water Margin hero, name 邹渊, nickname 出林龍, longer face, sparse mustache and goatee, restless energy, loose tied warrior hair with side strands, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地短, costume accents in dark green and gold, signature weapon styling inspired by Flying Tiger 禅杖 (飛虎棒), strong facial identity, historically inspired Song-dynasty styling"
+        }
+      ],
+      "prompt": "Use case: historical-scene\nAsset type: 3x3 portrait sheet for a Chinese literary heroes website\nPrimary request: Create a single square image laid out as a clean 3x3 grid of nine separate portrait panels, each panel containing one distinct bust portrait of a Water Margin hero. Keep every portrait centered and visually separated so the sheet can be cropped into nine individual avatars later.\nScene/backdrop: each panel has a simple dark ink-texture background with subtle ember glow, no props, no scenery, no text\nStyle/medium: stylized semi-realistic digital painting, cinematic Chinese historical fantasy, consistent art direction across all nine portraits, high facial detail, readable at thumbnail size\nComposition/framing: each hero is chest-up or shoulders-up, centered in their own panel, enough padding around the head, one person per panel only\nLighting/mood: dramatic warm rim light, heroic but moody\nColor palette: ink black, aged gold, muted crimson, deep green, steel gray\nConstraints: exactly nine portraits in a 3x3 grid, no text, no watermark, no merged panels, no extra people, no hands covering faces, keep the portraits distinct and crop-friendly\nPanel order left-to-right, top-to-bottom:\n1. Chinese male Water Margin hero, name 宋万, nickname 雲裏金剛, younger clean-shaven face, sharp cheekbones, alert eyes, formal warrior topknot with dark ribbon, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地魔, costume accents in aged gold and black, strong facial identity, historically inspired Song-dynasty styling\n2. Chinese male Water Margin hero, name 杜迁, nickname 摸着天, broad square jaw, trimmed mustache, commanding gaze, simple headscarf under a bronze ornament, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地妖, costume accents in deep crimson and bronze, strong facial identity, historically inspired Song-dynasty styling\n3. Chinese male Water Margin hero, name 薛永, nickname 病大蟲, older scarred veteran face, thick brows, weathered skin, high topknot with narrow crown, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地幽, costume accents in dark teal and steel, strong facial identity, historically inspired Song-dynasty styling\n4. Chinese male Water Margin hero, name 施恩, nickname 金眼彪, lean hawk-eyed face, short beard, calculating expression, windswept tied-back hair, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地伏, costume accents in moss green and iron gray, strong facial identity, historically inspired Song-dynasty styling\n5. Chinese male Water Margin hero, name 李忠, nickname 打虎將, full beard, heavier brow, intimidating presence, travel-worn cloth headband, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地僻, costume accents in oxblood red and black, strong facial identity, historically inspired Song-dynasty styling\n6. Chinese male Water Margin hero, name 周通, nickname 小覇王, noble refined features, thin mustache, composed poise, armored cap with subtle engraved details, elite cavalry general aura, lamellar armor, disciplined battlefield presence, associated with 地空, costume accents in indigo and bronze, signature weapon styling inspired by 长枪 (走水綠沉槍), strong facial identity, historically inspired Song-dynasty styling\n7. Chinese male Water Margin hero, name 汤隆, nickname 金錢豹子, sun-darkened rugged face, broken eyebrow scar, practical toughness, plain scholar cap, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地孤, costume accents in umber and iron, strong facial identity, historically inspired Song-dynasty styling\n8. Chinese male Water Margin hero, name 杜兴, nickname 鬼臉兒, rounder face, short boxed beard, stubborn expression, braided leather headband, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地全, costume accents in slate blue and silver, strong facial identity, historically inspired Song-dynasty styling\n9. Chinese male Water Margin hero, name 邹渊, nickname 出林龍, longer face, sparse mustache and goatee, restless energy, loose tied warrior hair with side strands, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地短, costume accents in dark green and gold, signature weapon styling inspired by Flying Tiger 禅杖 (飛虎棒), strong facial identity, historically inspired Song-dynasty styling\nBatch tag: water-margin-batch-10"
+    },
+    {
+      "batch": 11,
+      "heroes": [
+        {
+          "id": 91,
+          "name_zh": "邹润",
+          "slug": "91-zou-run",
+          "artwork_path": "/heroes/artwork/91-zou-run.svg",
+          "sprite_path": "/heroes/sprite/91-zou-run.svg",
+          "descriptor": "Chinese male Water Margin hero, name 邹润, nickname 獨角龍, younger clean-shaven face, sharp cheekbones, alert eyes, formal warrior topknot with dark ribbon, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地角, costume accents in aged gold and black, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 92,
+          "name_zh": "朱贵",
+          "slug": "92-zhu-gui",
+          "artwork_path": "/heroes/artwork/92-zhu-gui.svg",
+          "sprite_path": "/heroes/sprite/92-zhu-gui.svg",
+          "descriptor": "Chinese male Water Margin hero, name 朱贵, nickname 旱地忽律, broad square jaw, trimmed mustache, commanding gaze, simple headscarf under a bronze ornament, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地囚, costume accents in deep crimson and bronze, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 93,
+          "name_zh": "朱富",
+          "slug": "93-zhu-fu",
+          "artwork_path": "/heroes/artwork/93-zhu-fu.svg",
+          "sprite_path": "/heroes/sprite/93-zhu-fu.svg",
+          "descriptor": "Chinese male Water Margin hero, name 朱富, nickname 笑面虎, older scarred veteran face, thick brows, weathered skin, high topknot with narrow crown, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地藏, costume accents in dark teal and steel, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 94,
+          "name_zh": "蔡福",
+          "slug": "94-cai-fu",
+          "artwork_path": "/heroes/artwork/94-cai-fu.svg",
+          "sprite_path": "/heroes/sprite/94-cai-fu.svg",
+          "descriptor": "Chinese male Water Margin hero, name 蔡福, nickname 鐵臂膊, lean hawk-eyed face, short beard, calculating expression, windswept tied-back hair, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地平, costume accents in moss green and iron gray, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 95,
+          "name_zh": "蔡庆",
+          "slug": "95-cai-qing",
+          "artwork_path": "/heroes/artwork/95-cai-qing.svg",
+          "sprite_path": "/heroes/sprite/95-cai-qing.svg",
+          "descriptor": "Chinese male Water Margin hero, name 蔡庆, nickname 一枝花, full beard, heavier brow, intimidating presence, travel-worn cloth headband, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地損, costume accents in oxblood red and black, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 96,
+          "name_zh": "李立",
+          "slug": "96-li-li",
+          "artwork_path": "/heroes/artwork/96-li-li.svg",
+          "sprite_path": "/heroes/sprite/96-li-li.svg",
+          "descriptor": "Chinese male Water Margin hero, name 李立, nickname 催命判官, noble refined features, thin mustache, composed poise, armored cap with subtle engraved details, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地奴, costume accents in indigo and bronze, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 97,
+          "name_zh": "李云",
+          "slug": "97-li-yun",
+          "artwork_path": "/heroes/artwork/97-li-yun.svg",
+          "sprite_path": "/heroes/sprite/97-li-yun.svg",
+          "descriptor": "Chinese male Water Margin hero, name 李云, nickname 青眼虎, sun-darkened rugged face, broken eyebrow scar, practical toughness, plain scholar cap, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地察, costume accents in umber and iron, signature weapon styling inspired by 钢刀, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 98,
+          "name_zh": "焦挺",
+          "slug": "98-jiao-ting",
+          "artwork_path": "/heroes/artwork/98-jiao-ting.svg",
+          "sprite_path": "/heroes/sprite/98-jiao-ting.svg",
+          "descriptor": "Chinese male Water Margin hero, name 焦挺, nickname 沒面目, rounder face, short boxed beard, stubborn expression, braided leather headband, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地惡, costume accents in slate blue and silver, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 99,
+          "name_zh": "石勇",
+          "slug": "99-shi-yong",
+          "artwork_path": "/heroes/artwork/99-shi-yong.svg",
+          "sprite_path": "/heroes/sprite/99-shi-yong.svg",
+          "descriptor": "Chinese male Water Margin hero, name 石勇, nickname 石將軍, longer face, sparse mustache and goatee, restless energy, loose tied warrior hair with side strands, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地丑, costume accents in dark green and gold, strong facial identity, historically inspired Song-dynasty styling"
+        }
+      ],
+      "prompt": "Use case: historical-scene\nAsset type: 3x3 portrait sheet for a Chinese literary heroes website\nPrimary request: Create a single square image laid out as a clean 3x3 grid of nine separate portrait panels, each panel containing one distinct bust portrait of a Water Margin hero. Keep every portrait centered and visually separated so the sheet can be cropped into nine individual avatars later.\nScene/backdrop: each panel has a simple dark ink-texture background with subtle ember glow, no props, no scenery, no text\nStyle/medium: stylized semi-realistic digital painting, cinematic Chinese historical fantasy, consistent art direction across all nine portraits, high facial detail, readable at thumbnail size\nComposition/framing: each hero is chest-up or shoulders-up, centered in their own panel, enough padding around the head, one person per panel only\nLighting/mood: dramatic warm rim light, heroic but moody\nColor palette: ink black, aged gold, muted crimson, deep green, steel gray\nConstraints: exactly nine portraits in a 3x3 grid, no text, no watermark, no merged panels, no extra people, no hands covering faces, keep the portraits distinct and crop-friendly\nPanel order left-to-right, top-to-bottom:\n1. Chinese male Water Margin hero, name 邹润, nickname 獨角龍, younger clean-shaven face, sharp cheekbones, alert eyes, formal warrior topknot with dark ribbon, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地角, costume accents in aged gold and black, strong facial identity, historically inspired Song-dynasty styling\n2. Chinese male Water Margin hero, name 朱贵, nickname 旱地忽律, broad square jaw, trimmed mustache, commanding gaze, simple headscarf under a bronze ornament, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地囚, costume accents in deep crimson and bronze, strong facial identity, historically inspired Song-dynasty styling\n3. Chinese male Water Margin hero, name 朱富, nickname 笑面虎, older scarred veteran face, thick brows, weathered skin, high topknot with narrow crown, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地藏, costume accents in dark teal and steel, strong facial identity, historically inspired Song-dynasty styling\n4. Chinese male Water Margin hero, name 蔡福, nickname 鐵臂膊, lean hawk-eyed face, short beard, calculating expression, windswept tied-back hair, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地平, costume accents in moss green and iron gray, strong facial identity, historically inspired Song-dynasty styling\n5. Chinese male Water Margin hero, name 蔡庆, nickname 一枝花, full beard, heavier brow, intimidating presence, travel-worn cloth headband, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地損, costume accents in oxblood red and black, strong facial identity, historically inspired Song-dynasty styling\n6. Chinese male Water Margin hero, name 李立, nickname 催命判官, noble refined features, thin mustache, composed poise, armored cap with subtle engraved details, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地奴, costume accents in indigo and bronze, strong facial identity, historically inspired Song-dynasty styling\n7. Chinese male Water Margin hero, name 李云, nickname 青眼虎, sun-darkened rugged face, broken eyebrow scar, practical toughness, plain scholar cap, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地察, costume accents in umber and iron, signature weapon styling inspired by 钢刀, strong facial identity, historically inspired Song-dynasty styling\n8. Chinese male Water Margin hero, name 焦挺, nickname 沒面目, rounder face, short boxed beard, stubborn expression, braided leather headband, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地惡, costume accents in slate blue and silver, strong facial identity, historically inspired Song-dynasty styling\n9. Chinese male Water Margin hero, name 石勇, nickname 石將軍, longer face, sparse mustache and goatee, restless energy, loose tied warrior hair with side strands, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地丑, costume accents in dark green and gold, strong facial identity, historically inspired Song-dynasty styling\nBatch tag: water-margin-batch-11"
+    },
+    {
+      "batch": 12,
+      "heroes": [
+        {
+          "id": 100,
+          "name_zh": "孙新",
+          "slug": "100-sun-xin",
+          "artwork_path": "/heroes/artwork/100-sun-xin.svg",
+          "sprite_path": "/heroes/sprite/100-sun-xin.svg",
+          "descriptor": "Chinese male Water Margin hero, name 孙新, nickname 小尉遲, younger clean-shaven face, sharp cheekbones, alert eyes, formal warrior topknot with dark ribbon, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地數, costume accents in aged gold and black, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 101,
+          "name_zh": "顾大嫂",
+          "slug": "101-gu-dasao",
+          "artwork_path": "/heroes/artwork/101-gu-dasao.svg",
+          "sprite_path": "/heroes/sprite/101-gu-dasao.svg",
+          "descriptor": "顾大嫂 (母大蟲), Chinese female warrior matriarch, strong practical face, sturdy innkeeper-fighter clothing, formidable presence"
+        },
+        {
+          "id": 102,
+          "name_zh": "张青",
+          "slug": "102-zhang-qing",
+          "artwork_path": "/heroes/artwork/102-zhang-qing.svg",
+          "sprite_path": "/heroes/sprite/102-zhang-qing.svg",
+          "descriptor": "Chinese male Water Margin hero, name 张青, nickname 菜園子, older scarred veteran face, thick brows, weathered skin, high topknot with narrow crown, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地刑, costume accents in dark teal and steel, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 103,
+          "name_zh": "孙二娘",
+          "slug": "103-sun-erniang",
+          "artwork_path": "/heroes/artwork/103-sun-erniang.svg",
+          "sprite_path": "/heroes/sprite/103-sun-erniang.svg",
+          "descriptor": "孙二娘 (母夜叉), Chinese female outlaw innkeeper, dangerous beauty, bold eyes, layered travel clothing, ruthless energy"
+        },
+        {
+          "id": 104,
+          "name_zh": "王定六",
+          "slug": "104-wang-dingliu",
+          "artwork_path": "/heroes/artwork/104-wang-dingliu.svg",
+          "sprite_path": "/heroes/sprite/104-wang-dingliu.svg",
+          "descriptor": "Chinese male Water Margin hero, name 王定六, nickname 活閃婆, full beard, heavier brow, intimidating presence, travel-worn cloth headband, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地劣, costume accents in oxblood red and black, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 105,
+          "name_zh": "郁保四",
+          "slug": "105-yu-baosi",
+          "artwork_path": "/heroes/artwork/105-yu-baosi.svg",
+          "sprite_path": "/heroes/sprite/105-yu-baosi.svg",
+          "descriptor": "Chinese male Water Margin hero, name 郁保四, nickname 險道神, noble refined features, thin mustache, composed poise, armored cap with subtle engraved details, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地健, costume accents in indigo and bronze, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 106,
+          "name_zh": "白胜",
+          "slug": "106-bai-sheng",
+          "artwork_path": "/heroes/artwork/106-bai-sheng.svg",
+          "sprite_path": "/heroes/sprite/106-bai-sheng.svg",
+          "descriptor": "Chinese male Water Margin hero, name 白胜, nickname 白日鼠, sun-darkened rugged face, broken eyebrow scar, practical toughness, plain scholar cap, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地耗, costume accents in umber and iron, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 107,
+          "name_zh": "时迁",
+          "slug": "107-shi-qian",
+          "artwork_path": "/heroes/artwork/107-shi-qian.svg",
+          "sprite_path": "/heroes/sprite/107-shi-qian.svg",
+          "descriptor": "Chinese male Water Margin hero, name 时迁, nickname 鼓上蚤, rounder face, short boxed beard, stubborn expression, braided leather headband, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地賊, costume accents in slate blue and silver, signature weapon styling inspired by 朴刀, strong facial identity, historically inspired Song-dynasty styling"
+        },
+        {
+          "id": 108,
+          "name_zh": "段景住",
+          "slug": "108-duan-jingzhu",
+          "artwork_path": "/heroes/artwork/108-duan-jingzhu.svg",
+          "sprite_path": "/heroes/sprite/108-duan-jingzhu.svg",
+          "descriptor": "Chinese male Water Margin hero, name 段景住, nickname 金毛犬, longer face, sparse mustache and goatee, restless energy, loose tied warrior hair with side strands, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地狗, costume accents in dark green and gold, strong facial identity, historically inspired Song-dynasty styling"
+        }
+      ],
+      "prompt": "Use case: historical-scene\nAsset type: 3x3 portrait sheet for a Chinese literary heroes website\nPrimary request: Create a single square image laid out as a clean 3x3 grid of nine separate portrait panels, each panel containing one distinct bust portrait of a Water Margin hero. Keep every portrait centered and visually separated so the sheet can be cropped into nine individual avatars later.\nScene/backdrop: each panel has a simple dark ink-texture background with subtle ember glow, no props, no scenery, no text\nStyle/medium: stylized semi-realistic digital painting, cinematic Chinese historical fantasy, consistent art direction across all nine portraits, high facial detail, readable at thumbnail size\nComposition/framing: each hero is chest-up or shoulders-up, centered in their own panel, enough padding around the head, one person per panel only\nLighting/mood: dramatic warm rim light, heroic but moody\nColor palette: ink black, aged gold, muted crimson, deep green, steel gray\nConstraints: exactly nine portraits in a 3x3 grid, no text, no watermark, no merged panels, no extra people, no hands covering faces, keep the portraits distinct and crop-friendly\nPanel order left-to-right, top-to-bottom:\n1. Chinese male Water Margin hero, name 孙新, nickname 小尉遲, younger clean-shaven face, sharp cheekbones, alert eyes, formal warrior topknot with dark ribbon, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地數, costume accents in aged gold and black, strong facial identity, historically inspired Song-dynasty styling\n2. 顾大嫂 (母大蟲), Chinese female warrior matriarch, strong practical face, sturdy innkeeper-fighter clothing, formidable presence\n3. Chinese male Water Margin hero, name 张青, nickname 菜園子, older scarred veteran face, thick brows, weathered skin, high topknot with narrow crown, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地刑, costume accents in dark teal and steel, strong facial identity, historically inspired Song-dynasty styling\n4. 孙二娘 (母夜叉), Chinese female outlaw innkeeper, dangerous beauty, bold eyes, layered travel clothing, ruthless energy\n5. Chinese male Water Margin hero, name 王定六, nickname 活閃婆, full beard, heavier brow, intimidating presence, travel-worn cloth headband, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地劣, costume accents in oxblood red and black, strong facial identity, historically inspired Song-dynasty styling\n6. Chinese male Water Margin hero, name 郁保四, nickname 險道神, noble refined features, thin mustache, composed poise, armored cap with subtle engraved details, specialist hero presence, distinctive outfit details, clever and unconventional temperament, associated with 地健, costume accents in indigo and bronze, strong facial identity, historically inspired Song-dynasty styling\n7. Chinese male Water Margin hero, name 白胜, nickname 白日鼠, sun-darkened rugged face, broken eyebrow scar, practical toughness, plain scholar cap, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地耗, costume accents in umber and iron, strong facial identity, historically inspired Song-dynasty styling\n8. Chinese male Water Margin hero, name 时迁, nickname 鼓上蚤, rounder face, short boxed beard, stubborn expression, braided leather headband, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地賊, costume accents in slate blue and silver, signature weapon styling inspired by 朴刀, strong facial identity, historically inspired Song-dynasty styling\n9. Chinese male Water Margin hero, name 段景住, nickname 金毛犬, longer face, sparse mustache and goatee, restless energy, loose tied warrior hair with side strands, commanding leader aura, dignified, layered formal robe with light armor trim, associated with 地狗, costume accents in dark green and gold, strong facial identity, historically inspired Song-dynasty styling\nBatch tag: water-margin-batch-12"
+    }
+  ]
+}
